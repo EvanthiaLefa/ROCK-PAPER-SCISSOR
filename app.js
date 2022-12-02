@@ -34,7 +34,7 @@ Rock.addEventListener("click",  () => {
 })
 
 const Paper = document.querySelector('#paper');
-Paper.addEventListener("click", function () {
+Paper.addEventListener("click", () => {
    let computerChoice = randomChoice();
    if (computerChoice == 'Rock') {
       alertText.innerText = `Computer chose ${computerChoice}, You Win!`
@@ -55,7 +55,7 @@ Paper.addEventListener("click", function () {
 })
 
 const Scissor = document.querySelector('#scissor');
-Scissor.addEventListener("click", function () {
+Scissor.addEventListener("click", () => {
    let computerChoice = randomChoice();
    if (computerChoice == 'Rock') {
       alertText.innerText = `Computer chose ${computerChoice}, You Lost :/`
