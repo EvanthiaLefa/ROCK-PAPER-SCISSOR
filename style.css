@@ -1,0 +1,22 @@
+h1{
+    color: rgb(154, 129, 177);
+}
+button{
+    background-color: rgb(97, 108, 119);
+    height: 3em;
+    width: 15%;
+    border-radius: 25px;
+    font-size:large;
+    font-weight: 500;
+    border: none;
+}
+button:hover{
+    background-color: rgb(173, 164, 182);
+}
+#position{
+    margin-top: 8%;
+}
+#alert{
+    font-size: large;
+    font-weight: bold;
+}
