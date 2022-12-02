@@ -20,3 +20,10 @@ button:hover{
     font-size: large;
     font-weight: bold;
 }
+
+@media  (max-width: 550px) {
+   button{
+    width: 70%;
+    margin-bottom: 3%;
+   }
+  }
